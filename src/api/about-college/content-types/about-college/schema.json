@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_colleges",
+  "info": {
+    "singularName": "about-college",
+    "pluralName": "about-colleges",
+    "displayName": "About College"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "pagebanner": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
