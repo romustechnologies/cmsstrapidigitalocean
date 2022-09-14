@@ -4,11 +4,11 @@ module.exports = ({ env }) => ({
   connection: {
     client: "mysql",
     connection: {
-      host: config.host,
-      port: config.port,
-      database: config.database,
-      user: config.user,
-      password: config.password,
+      host: "WEBIDC10.znetlive.com",
+      port: 3306,
+      database: "cmsgdcb",
+      user: "roomush",
+      password: "Roomush@123#",
       ssl: {
         rejectUnauthorized: false,
       },
